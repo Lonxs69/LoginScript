@@ -1,4 +1,4 @@
--- Crear base de datos
+-- Crear base de datos relacioada con el sistema de dioris para ayudar a robert
 CREATE DATABASE LoginDioris;
 USE LoginDioris;
 
