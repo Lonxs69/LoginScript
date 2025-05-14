@@ -1,0 +1,30 @@
+-- Crear base de datos
+CREATE DATABASE LoginDioris;
+GO
+USE LoginDioris;
+GO
+
+-- Tabla: Registro cliente
+CREATE TABLE [Registro cliente] (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    nombre VARCHAR(100),
+    correo VARCHAR(100),
+    telefono VARCHAR(20)
+);
+----------
+-- Tabla: Login
+CREATE TABLE Login (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    usuario VARCHAR(50),
+    clave VARCHAR(100),
+    compañia VARCHAR(100)
+);
+----------
+-- Tabla: registro
+CREATE TABLE registro (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    usuario VARCHAR(50),
+    telefono VARCHAR(20),
+    [E-mail] VARCHAR(100),
+    contraseña VARCHAR(100)
+);
