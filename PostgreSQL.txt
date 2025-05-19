@@ -1,4 +1,6 @@
--- Crear base de datos
+-- Crear base de datos asegurate del connectioon ports
+
+
 CREATE DATABASE "LoginDioris";
 
 -- Cambiar a la base de datos
