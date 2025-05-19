@@ -28,3 +28,8 @@ CREATE TABLE registro (
     [E-mail] VARCHAR(100),
     contraseña VARCHAR(100)
 );
+
+
+create table lslslslls(
+    id alallal int IDENTITY(1,1)
+)
